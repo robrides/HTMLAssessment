@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Assessment</title>
+</head>
+
+<body>
+
+  <h2>TEXT</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor sed lorem sit amet lobortis. Nullam finibus lorem id eleifend cursus. Pellentesque commodo eu augue quis porta. Aliquam erat volutpat. Vestibulum at finibus nisl. Phasellus at
+    dui et lorem ultricies tincidunt. Donec non auctor erat. Ut dui lorem, finibus sed tortor vitae, elementum pretium purus. Cras pharetra varius mi eu pulvinar. Nullam libero massa, dapibus ut feugiat mattis, ornare non neque. Pellentesque ac lacus
+    a
+    ligula mattis congue a vel arcu. Pellentesque massa tortor, ultrices vitae ex a, malesuada interdum erat.
+  </p>
+  <p>
+    <blockquote cite="https://www.lipsum.com/feed/html"><em>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec faucibus tincidunt orci non dapibus. Vivamus ultricies, justo nec molestie tincidunt, ex
+        sapien imperdiet elit, a porta risus nisi congue ligula. Ut ut mi in dui gravida egestas varius eget odio. Praesent eu malesuada metus. Mauris euismod varius tellus eu tincidunt. Phasellus pulvinar ut ante et mollis. Donec tincidunt pretium
+        tristique. Cras nec eros neque. Curabitur venenatis elit erat, facilisis sagittis sem efficitur non.</em></blockquote>
+  </p>
+  <p>
+    Curabitur quis finibus felis, sit amet tincidunt lorem. Praesent sed viverra nulla. Nunc faucibus non nibh et convallis. Ut volutpat fermentum leo ut congue. Sed lorem ex, molestie et feugiat at, rutrum sit amet lorem. Morbi varius gravida
+    turpis,
+    at faucibus arcu. Proin eget quam vitae nisi placerat dictum in id velit. Suspendisse ut sapien metus. Suspendisse sed ante ut justo vehicula tristique. Cras urna lacus, pulvinar ac viverra id, sollicitudin gravida nisi. Sed lacinia mi eros, in
+    consectetur metus pulvinar sed. Nulla tincidunt auctor felis, ut pharetra purus malesuada a. Pellentesque vel vehicula felis.
+  </p>
+
+  <h2>TABLE</h2>
+  <table>
+    <tr>
+      <th rowspan="2">Team Name</th>
+      <th colspan="2">First Half</th>
+      <th colspan="2">Second Half</th>
+
+    </tr>
+    <tr bgcolor="#D3D3D3">
+      <td align="center"><strong>&nbsp&nbspQ1&nbsp&nbsp</strong></td>
+      <td align="center"><strong>&nbsp&nbspQ2&nbsp&nbsp</strong></td>
+      <td align="center"><strong>&nbsp&nbspQ3&nbsp&nbsp</strong></td>
+      <td align="center"><strong>&nbsp&nbspQ4&nbsp&nbsp</strong></td>
+    </tr>
+    <tr>
+      <td>Denver</td>
+      <td align="right">7</td>
+      <td align="right">3</td>
+      <td align="right">0</td>
+      <td align="right">7</td>
+    </tr>
+    <tr bgcolor="#D3D3D3">
+      <td>Chicago</td>
+      <td align="right">3</td>
+      <td align="right">3</td>
+      <td align="right">0</td>
+      <td align="right">7</td>
+    </tr>
+  </table>
+
+  <h2>LIST</h2>
+  <ul>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/New_England_Patriots_logo.svg/150px-New_England_Patriots_logo.svg.png">
+    <li>
+      <h2><a href="https://www.patriots.com/">New England Patriots</a></h2>
+      <ul>
+        <li>
+          <h2>QB</h2>
+          <ul>
+            <li>
+              <h2>Tom Brady</h2>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+  </ul>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/150px-Denver_Broncos_logo.svg.png">
+  <ul>
+    <li>
+      <h2><a href="https://www.denverbroncos.com/">Denver Broncos</a></h2>
+      <ul>
+        <li type="">
+          <h2>QB</h2>
+          <ul>
+            <li>
+              <h2>Peyton Manning</h2>
+            </li>
+            <li>
+              <h2>Brock Ostweiler</h2>
+            </li>
+          </ul>
+        </li>
+      </ul>
+  </ul>
+  <br><br>
+  <h2>FORM</h2>
+  <p>
+    <h4>Enter your name...</h4>
+  </p>
+  <form action="/html/tags/html_form_tag_action.cfm" method="get">
+    First name: <input type="text" name="first_name" value="" maxlength="100">
+    Last name: <input type="text" name="last_name" value="" maxlength="100">
+  </form>
+  <h4>Select your favorite sport...</h4>
+  <form>
+    <select>
+      <option value="Soccer">Soccer</option>
+      <option value="Cycling">Cycling</option>
+      <option value="Tennis">Tennis</option>
+      <option value="Hockey">Hockey</option>
+      <option value="Football">Football</option>
+    </select>
+  </form>
+  <h4>Have you ever done the following activities for your chosen sport? Check the boxes below...</h4>
+  <form class="" action="">
+    <input type="checkbox" name="sportsengagement" value="Played"> Played
+    <input type="checkbox" name="sportsengagement" value="Attended"> Attended
+    <input type="checkbox" name="sportsengagement" value="Coached"> Coached
+    <input type="checkbox" name="sportsengagement" value="Bet"> Bet
+  </form>
+
+  <h4>Which level of the sport to you prefer? Select from the options below...</h4>
+
+  <form>
+    <input type="radio" name="sportsversion" value="amateur"> Ameteur
+    <input type="radio" name="sportsversion" value="College"> College
+    <input type="radio" name="sportsversion" value="Profressional"> Professional
+    <br><br><input type="submit" value="Submit">
+  </form>
+  <br><br><br><br><br>
+</body>
+
+</html>
