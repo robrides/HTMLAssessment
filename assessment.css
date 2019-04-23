@@ -2,6 +2,10 @@ body {
   background-color: lightgray;
 }
 
+tr:nth-child(even){
+background: white;
+}
+
 .subjectHeader {
   color: blue;
   font-family: sans-serif;
@@ -54,7 +58,6 @@ img[src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.
 
 #teamRoster li img{
   display: none;
-}
 
 #checkbox-grid{
   list-style: none;
