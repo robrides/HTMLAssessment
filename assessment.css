@@ -40,25 +40,27 @@ blockquote {
   color: white;
 }
 
-a[href="http://www.denverbroncos.com/"] + ul:nth-child(1n+1){
-  content: "";
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100px;
-}
-
-img[src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg"] + ul:nth-child(1n+1){
-  background-image: url("http://www.chicagobears.com/");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100px;
-}
-
 #teamRoster li img{
   display: none;
 }
+
+li:first-child > ul {
+  height: 120px;
+  background-blend-mode: color;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+li:last-child > ul {
+  height: 120px;
+  background-blend-mode: color;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
 #checkbox-grid{
   list-style: none;
-}
